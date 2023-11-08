@@ -1,0 +1,245 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap" rel="stylesheet">
+
+    <title>Personal Portfolio Website</title>
+    <style>
+        * {
+            padding: 0%;
+            margin: 0%;
+        }
+
+        body {
+            background-color: black;
+            color: white;
+            font-family: 'Poppins', sans-serif;
+        }
+
+        nav {
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            height: 70px;
+            background-color: rgb(209, 81, 192);;
+        }
+
+        nav ul {
+            display: flex;
+            justify-content: center;
+        }
+
+        nav ul li {
+            list-style: none;
+            margin: 0 25px;
+        }
+        nav ul li a {
+            text-decoration: none;
+            color: white;
+        }
+        nav ul li a:hover {
+            color: black;
+            
+        }
+
+        .lt {
+            font-size: 2rem;
+        }
+
+        .one {
+            display: flex;
+            justify-content: space-around;
+            margin: 80px 0;
+            align-items: center;
+        }
+
+        .one>div {
+            width: 30%;
+        }
+
+        .lts {
+            font-size: 2rem;
+            margin: 30px;
+        }
+
+        .rts {
+            width:"70%";
+        }
+        #element{
+        color: rgb(209, 81, 192);
+        }
+        .two{
+            max-width: 75vw;
+            margin: auto;
+            height: 80vh;
+
+        }
+        .two h1{
+            font-size: 2rem;
+        }
+        .text{
+            color: rgb(209, 81, 192);;
+
+        }
+        .two .box{
+            background: white;
+            width: 78vw;
+            height: 2px;
+            margin: 56px 0;
+            display: flex;
+        }
+        .two .vertical{
+            height: 92px;
+            width: 1px;
+            background-color: white;
+            margin: 0 120px;
+
+        }
+        .text1{
+            top: 95px;
+            width: 150px;
+            position: relative;
+        }
+        .text2{
+            position: relative;
+            color: rgb(209, 81, 192);;
+            top: 105px;
+            width: 150px;
+            font-size: 10px;
+
+
+        }
+        footer{
+            background-color: rgb(209, 81, 192);
+        }        
+        .footer{
+            display: flex;
+            padding: 23px 123px;
+            justify-content: space-evenly;
+        }
+        .footer ul{
+            list-style: none;
+        }
+        .resume{
+            background-color: rgb(209, 81, 192);
+            color: white;
+            border-radius: 6px;
+            border: 2px solid white;
+            font-size: 20px;
+            padding: 7px;
+            cursor: pointer;
+            margin-top:40px;
+        }
+        .resume:hover{
+            background-color: rgb(87, 6, 76);
+        }
+
+    </style>
+</head>
+
+<body>
+    <header>
+        <nav>
+            <div class="lt">My Portfolio</div>
+            <div class="rt">
+                <ul>
+                   
+                        <li><a>Home</a></li>
+                        <li><a>About</a></li>
+                        <li><a>Services</a></li>
+                        <li><a>Contacts</a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+    <main>
+        <section class="one">
+            <div class="lts">Hello my name is Farhan
+                <div>I am an abecedarian in</div>
+                <span id="element"></span>
+                <div class="buttons">
+                    <button class="resume">Downlaod Resume</button>
+                    <button class="resume">Visit Github</button>
+                </div>
+            </div>
+            <div class="rts">
+                <img src="web-developer-illustration-2005x2048-fal2biag.png" alt="" width="70%" margin="50px 0">
+            </div>
+        </section>
+        <section class="two">
+            <span class="text">What have I done so far</span>
+            <h1>Work Experience</h1>
+            <div class="box">
+                <div class="vertical">
+                    <div class="text1">Frontend Developer</div>
+                    <div class="text2">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Officia numquam tenetur repudiandae, ducimus ratione provident voluptas quaerat labore cum modi saepe? Dolorum accusamus obcaecati est, harum quibusdam impedit ut ratione?
+                    </div>
+                </div>
+                <div class="vertical">
+                    <div class="text1">Backend Developer</div>
+                    <div class="text2">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Officia numquam tenetur repudiandae, ducimus ratione provident voluptas quaerat labore cum modi saepe? Dolorum accusamus obcaecati est, harum quibusdam impedit ut ratione?
+                    </div>
+                </div>
+                <div class="vertical">
+                    <div class="text1">Full Stack Developer</div>
+                    <div class="text2">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Officia numquam tenetur repudiandae, ducimus ratione provident voluptas quaerat labore cum modi saepe? Dolorum accusamus obcaecati est, harum quibusdam impedit ut ratione?
+                    </div>
+                </div>
+                <div class="vertical">
+                    <div class="text1">Node Js Developer</div>
+                    <div class="text2">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Officia numquam tenetur repudiandae, ducimus ratione provident voluptas quaerat labore cum modi saepe? Dolorum accusamus obcaecati est, harum quibusdam impedit ut ratione?
+                    </div>
+                </div>
+                <div class="vertical">
+                    <div class="text1">Android Developer</div>
+                    <div class="text2">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Officia numquam tenetur repudiandae, ducimus ratione provident voluptas quaerat labore cum modi saepe? Dolorum accusamus obcaecati est, harum quibusdam impedit ut ratione?
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <div class="footer">
+            <div class="footer1">My Developer Portfolio</div>
+            <div class="footer2">
+                <ul>
+                    <li>Home</li>
+                    <li>About</li>
+                    <li>Contact</li>
+                    <li>Services</li>
+                </ul>
+            </div>
+            <div class="footer3">
+                <ul>
+                    <li>Home</li>
+                    <li>About</li>
+                    <li>Contact</li>
+                    <li>Services</li>
+                </ul>
+            </div>
+            <div class="footer4">
+                <ul>
+                    <li>Home</li>
+                    <li>About</li>
+                    <li>Contact</li>
+                    <li>Services</li>
+                </ul>
+            </div>
+        </div>
+        <div style="text-align: center; margin-top: 9px;">www.myportfolio.com | All rights reserved</div>
+    </footer>
+    <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
+    <script>
+        var typed = new Typed('#element',{
+          strings: ['Web Developing', 'Web Designing', 'Editing'],
+          typeSpeed: 50,
+        });
+      </script>
+</body>
+
+</html>
